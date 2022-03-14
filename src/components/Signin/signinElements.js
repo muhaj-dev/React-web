@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
-    min-height: 692px;
+    min-height: 100vh;
     psition: fixed;
     bottom: 0;
     left: 0;
@@ -31,7 +31,7 @@ export const FormWrap = styled.div`
 export const Icon = styled(Link)`
     margin-left: 32px;
     margin-top: 32px;
-    // margin-bottom: 50px;
+    margin-bottom: 0;
     text-decoration: none;
     color: #fff;
     font-weight: 700;
